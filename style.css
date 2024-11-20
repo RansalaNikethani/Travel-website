@@ -1,0 +1,86 @@
+:root{
+    --main-color:rgb(6, 112, 64);
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+.sec-font-family{
+    font-family: 'Pacifico', cursive;;
+}
+
+nav{
+    background-color: aquamarine;
+}
+
+.main-text{
+    color: var(--main-color);
+}
+
+.nav-link{
+    color: var(--main-color);
+}
+
+.banner{
+    height: 500px;
+}
+
+header ul li {
+    margin-left: 50px;
+}
+
+.main-bg-color{
+    background: #2c6e3a;
+}
+
+.hero{
+    background: #2c6e3a;
+}
+
+.btn-hero:hover{
+    color: var(--main-color);
+}
+
+.card{
+    background: none;
+    border: none;
+}
+
+.header-gallery{
+    width: 200px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+@media(max-width:600px) {
+    header ul li {
+        margin-left: none;
+    }
+
+    .header-gallery{
+        width: 100px;
+    }
+    
+}
+
+.btn,.shadow-hover{
+    transition: 0.3s;
+}
+
+.shadow-hover:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    transition-timing-function: all 0.2s ease-in-out;
+}
+
+
+@media (max-width: 767.98px) {
+    .about img{
+        display: block;
+    } 
+    .about-stuff p{
+        display: block;
+    }
+}
